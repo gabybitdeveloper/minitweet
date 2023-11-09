@@ -1,5 +1,28 @@
 .App {
-  text-align: center;
+  display: flex;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h1{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 600px;
+  margin-right: 100px;
+  }
+
+.Menu{
+  display: flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: aqua;
+}
+
+.container-fluid{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.Menu:hover{
+  color: gray;
 }
 
 .App-logo {
