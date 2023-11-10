@@ -7,7 +7,7 @@ import { faBell, faBookmark, faClock, faCrown, faDove, faEnvelope, faFaceSmileWi
 function Menu () {
   return (
     <>
-      <ul class="nav flex-column dark bg-dark">
+      <ul class="nav flex-column dark bg-dark vertical">
         <li class="nav-item">
             <a class="nav-link active menu-vertical" aria-current="page" href="#"><FontAwesomeIcon icon={faDove} />X</a>
         </li>
@@ -38,9 +38,12 @@ function Menu () {
         <li class="nav-item">
           <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faPlus} /> Más opciones</a>
         </li>
-        <button type="button" class="btn btn-outline-light rounded-pill btn-sm mt-4 ms-4 d-flex justify-content-center"> Postear </button>
+        <button type="button" class="btn btn-outline-light rounded-pill btn-md mt-2 ms-6 mb-2 d-block mx-auto"> Postear </button>
     </ul> 
-    <img src="shiny-articuno" alt="@gabybit" />
+
+    <button type="button" class="btn btn-light rounded-pill btn-sm mt-4 ms-6 d-flex mx-auto"> 
+    <img src="shiny-articuno" alt="@gabybit" /> 
+    </button>
   </>
     );
   }

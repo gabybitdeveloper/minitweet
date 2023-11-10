@@ -15,7 +15,37 @@ h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: aqua;
 }
-
+.vertical{
+  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+}
+.caja1{
+  border: 1px solid rgb(232, 226, 226);
+}
+.caja2{
+  border: 1px solid rgb(232, 226, 226);
+}
+.form-control{
+  border: 0px;
+}
+.form-control-search{
+  background-color: rgb(241, 245, 249);
+}
+.cajita-suscribete{
+  padding-left: 20px;
+  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  background-color: rgb(241, 245, 249);
+}
+.cajita-seguir{
+  font-weight: 100;
+  padding-left: 20px;
+  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  background-color: rgb(241, 245, 249);
+}
+.tendencias{
+  padding-left: 20px;
+  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  background-color: rgb(241, 245, 249); 
+}
 .container-fluid{
   padding-left: 0px !important;
   padding-right: 0px !important;
