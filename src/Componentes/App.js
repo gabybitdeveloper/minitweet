@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import Menu from './Menu'
 import Muro from './Muro'
 import Suscribete from './Suscribete'
-import App from '../App'
+import MiniTweet from '../Minitweet'
 
 
-function Container() { //papa que tiene los 3 componentes
+function App() { //papa que tiene los 3 componentes
     return (
         <div class="container">
-            <App/>
+            <MiniTweet/>
             <div class="row">
                 <div class="col-3">
                     <Menu/>
@@ -24,4 +24,4 @@ function Container() { //papa que tiene los 3 componentes
     )
   }
 
-export default Container
+export default App

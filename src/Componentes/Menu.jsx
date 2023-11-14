@@ -1,13 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell, faBookmark, faClock, faCrown, faDove, faEnvelope, faFaceSmileWink, faGear, faGift, faHouse, faImage, faList, faLocationDot, faMagnifyingGlass, faPerson, faPlus } from "@fortawesome/free-solid-svg-icons";
-
+import { faBell, faBookmark, faCrown, faDove, faEnvelope, faHouse, faList, faMagnifyingGlass, faPerson, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 
 function Menu () {
   return (
     <>
-      <ul class="nav flex-column dark bg-dark vertical">
+      <ul class="rounded nav flex-column bg-light vertical">
         <li class="nav-item">
             <a class="nav-link active menu-vertical" aria-current="page" href="#"><FontAwesomeIcon icon={faDove} />X</a>
         </li>
@@ -38,12 +37,25 @@ function Menu () {
         <li class="nav-item">
           <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faPlus} /> Más opciones</a>
         </li>
-        <button type="button" class="btn btn-outline-light rounded-pill btn-md mt-2 ms-6 mb-2 d-block mx-auto"> Postear </button>
+        <button type="button" class="btn btn-primary rounded-pill btn-md mt-2 ms-6 mb-2 d-block mx-auto"> Postear </button>
     </ul> 
-
-    <button type="button" class="btn btn-light rounded-pill btn-sm mt-4 ms-6 d-flex mx-auto"> 
-    <img src="shiny-articuno" alt="@gabybit" /> 
+    <div className="tw-followCard-perfil">
+    <button type="button" class="btn btn-light rounded-pill btn-md mt-2 ms-6 mb-4"> 
+      <img
+      className='tw-followCard-perfil'
+          alt= "@gabybit" 
+          src="https://unavatar.io/github/gabybitdeveloper"/>
+        <div className='tw-followCard-info'>
+          <strong>Gabriela Bit</strong>
+          <br></br>
+          <span
+          className='tw-followCard-infoUserName'>@gabybit</
+          span>
+          <br></br>
+          <strong>...</strong>
+        </div>
     </button>
+    </div>
   </>
     );
   }

@@ -3,7 +3,6 @@ import './App.css';
 import React from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faEnvelope, faFeather, faDove } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (

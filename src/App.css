@@ -15,35 +15,80 @@ h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: aqua;
 }
+.tw-followCard-perfil{
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+.botonParati{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffffff;
+  width: 250px
+}
+.botonSiguiendo{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffffff;
+  opacity: .6;
+  width: 310px
+}
+.botonGear{
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.botonPerfilMuro{
+  background-color: #ffffff;
+}
 .vertical{
-  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  box-shadow: 0px 5px 10px rgb(226, 226, 226);
+  background-color: rgb(247, 248, 248);
 }
 .caja1{
   border: 1px solid rgb(232, 226, 226);
 }
 .caja2{
   border: 1px solid rgb(232, 226, 226);
+  opacity: .8;
+}
+.searchInput{
+  width: 10px;
 }
 .form-control{
   border: 0px;
 }
 .form-control-search{
+  opacity: .6;
+  border-color: #ffffff;
   background-color: rgb(241, 245, 249);
 }
 .cajita-suscribete{
   padding-left: 20px;
-  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  box-shadow: 0px 5px 10px rgb(207, 205, 205);
   background-color: rgb(241, 245, 249);
+}
+
+.tw-followCard-infoUserName {
+  opacity: .6;
+}
+.tw-followCard-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+.tw-followCard-button {
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px
 }
 .cajita-seguir{
   font-weight: 100;
   padding-left: 20px;
-  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  box-shadow: 00px 5px 10px rgb(207, 205, 205);
   background-color: rgb(241, 245, 249);
 }
 .tendencias{
   padding-left: 20px;
-  box-shadow: 0px 5px 10px rgb(70, 111, 246);
+  box-shadow: 0px 5px 10px rgb(207, 205, 205);
   background-color: rgb(241, 245, 249); 
 }
 .container-fluid{
