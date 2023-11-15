@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faFaceSmileWink, faGear, faGift, faImage, faList, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faFaceSmileWink, faGear, faGift, faHeart, faImage, faList, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 function Muro() {
   return (
@@ -31,9 +31,43 @@ function Muro() {
     <button type="button" class="btn btn-outline-primary rounded-pill btn-sm mt-4 ms-4"><FontAwesomeIcon icon={faLocationDot} /> </button>
     <button type="button" class="btn btn-primary rounded-pill btn-sm mt-4 ms-4 mb-4"> Postear </button>
   </div>
-  <br></br>
+  <div className='botonPosts'>
+  <button type="button" class="btn btn-light fw-lighter btn-md botonPosts">Mostrar 30 posts </button>
+  </div>
+  <div className='Box3Posts'>
+  <img 
+        className='tw-followCard-perfil'
+            alt= "@gabybit" 
+            src="https://unavatar.io/github/gabybitdeveloper"/>
+    <div className='tw-followCard-Posts'>
+        <strong>Gaby Bit</strong>
+        <span
+            className='tw-followCard-infoUserName'>@gabybit 19h</
+            span>
+          <button type="button" class="btn btn-light rounded-pill btn-sm ms-4 mb-4 botonPerfilPosts"> ... </button>
+            </div>
+            
+    <p>
+      This is my friend Adriana Blu
+      <br></br>
 
-    Publicaciones
+      She is an incredible artist.
+      <br></br>
+      Here is her new song and website
+      <br></br>
+       
+      <FontAwesomeIcon icon={faHeart} />
+      <a href="#" class="link-primary"> https://www.adrianablu.com/</a>
+    </p>
+    <div className='container'>
+      <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S-lrOL7n3bw?si=VD9Jnk4_p9aiphKN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+            
+  </div>
+
 </>
   )
 }

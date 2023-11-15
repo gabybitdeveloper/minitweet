@@ -46,7 +46,7 @@ function Menu () {
           alt= "@gabybit" 
           src="https://unavatar.io/github/gabybitdeveloper"/>
         <div className='tw-followCard-info'>
-          <strong>Gabriela Bit</strong>
+          <strong>Gaby Bit</strong>
           <br></br>
           <span
           className='tw-followCard-infoUserName'>@gabybit</

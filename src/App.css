@@ -31,6 +31,15 @@ h1{
   opacity: .6;
   width: 310px
 }
+.botonPosts{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffffff;
+  color: rgb(0, 85, 242);
+  border-color: lightgray;
+  opacity: .6;
+  width: 635px;
+}
+
 .botonGear{
   background-color: #ffffff;
   margin-right: 15px;
@@ -59,6 +68,18 @@ h1{
   opacity: .6;
   border-color: #ffffff;
   background-color: rgb(241, 245, 249);
+}
+.tw-followCard-Posts
+{
+  border-radius: 1000px;
+}
+.Box3Posts{
+  border: 1px solid rgb(232, 226, 226);
+}
+.botonPerfilPosts{
+background-color: rgb(255, 255, 255);
+opacity: .6;
+border: none;
 }
 .cajita-suscribete{
   padding-left: 20px;
