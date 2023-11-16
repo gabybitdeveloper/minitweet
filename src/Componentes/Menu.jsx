@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell, faBookmark, faCrown, faDove, faEnvelope, faHouse, faList, faMagnifyingGlass, faPerson, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faBell, faCrown, faDove, faEnvelope, faHouse, faList, faMagnifyingGlass, faPlus, faUser, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 
 function Menu () {
@@ -11,36 +11,36 @@ function Menu () {
             <a class="nav-link active menu-vertical" aria-current="page" href="#"><FontAwesomeIcon icon={faDove} />X</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active menu-vertical" aria-current="page" href="#"><FontAwesomeIcon icon={faHouse} /> Inicio</a>
+          <a class="nav-link active menu-vertical" aria-current="page" href="#"><FontAwesomeIcon icon={faHouse} /> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faMagnifyingGlass} />  Explorar</a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faMagnifyingGlass} />  Explore</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faBell} /> Notificaciones </a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faBell} /> Notifications </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faEnvelope} /> Mensajes </a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faEnvelope} /> Menssages </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faList} /> Listas </a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faList} /> Lists </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faBookmark} /> Guardados </a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faUsers} /> Communities </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faCrown} /> Premium</a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faDove} /> Premium</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faPerson} /> Perfil</a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faUser} /> Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faPlus} /> Más opciones</a>
+          <a class="nav-link menu-vertical" href="#"><FontAwesomeIcon icon={faPlus} /> More</a>
         </li>
-        <button type="button" class="btn btn-primary rounded-pill btn-md mt-2 ms-6 mb-2 d-block mx-auto"> Postear </button>
+        <button type="button" class="btn btn-primary rounded-pill btn-md mt-2 ms-6 mb-2 d-block mx-auto"> Post </button>
     </ul> 
     <div className="tw-followCard-perfil">
-    <button type="button" class="btn btn-light rounded-pill btn-md mt-2 ms-6 mb-4"> 
+    <button type="buttonProfileMenu" class="btn btn-light rounded-pill btn-sm mt-4 ms-6 d-flex mx-auto buttonProfileMenu"> 
       <img
       className='tw-followCard-perfil'
           alt= "@gabybit" 
@@ -49,9 +49,8 @@ function Menu () {
           <strong>Gaby Bit</strong>
           <br></br>
           <span
-          className='tw-followCard-infoUserName'>@gabybit</
+          className='tw-followCard-infoUserName'>@gabybit                     </
           span>
-          <br></br>
           <strong>...</strong>
         </div>
     </button>

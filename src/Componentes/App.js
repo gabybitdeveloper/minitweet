@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Menu from './Menu'
-import Muro from './Muro'
-import Suscribete from './Suscribete'
+import Feed from './Feed'
+import Subscribe from './Subscribe'
 import MiniTweet from '../Minitweet'
 
 
@@ -14,10 +14,10 @@ function App() { //papa que tiene los 3 componentes
                     <Menu/>
                 </div>
                 <div class="col-6">
-                    <Muro/>
+                    <Feed/>
                 </div>
                 <div class="col-3">
-                    <Suscribete/>
+                    <Subscribe/>
                 </div>
             </div>    
         </div>
